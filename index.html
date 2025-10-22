@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Flower Shop</title>
+   <!-- tailwind -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Bokor&family=Freehand&family=Gidole&family=Hanuman:wght@100;300;400;700;900&family=Inter:opsz,wght@14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Moulpali&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Siemreap&display=swap"
+      rel="stylesheet">
+   <!-- Font Awesome CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+<body>
+   <div class="head fixed w-full z-50">
+      <h3 class="bg-zinc-700 text-white text-center text-sm">ENJOY FREE SHIPPING ON ORDERS OF $50+</h3>
+   </div>
+
+   <!-- navigation -->
+      <nav class="navigation flex justify-around items-center h-20 fixed top-5 left-0 w-full px-20 py-4 z-50 bg-white">
+      <div class="logo">
+         <h1 class="text-3xl font-semibold text-zinc-800">logo</h1>
+      </div>
+      <div class="menu flex list-none text-zinc-800 space-x-10">
+         <li><a href="#feature">FEATURE</a></li>
+         <li><a href="#how-it-works">HOW IT WORKS</a></li>
+         <li><a href="#bestsellers">BESTSELLERS</a></li>
+         <li><a href="#reviews">REVIEWS</a></li>
+         <li><a href="#about-us">ABOUT US</a></li>
+      </div>
+      <div class="button_buy rounded-full bg-zinc-800 h-9 w-36">
+         <p class="text-white text-center h-full justify-center items-center flex">Buy Now</p>
+      </div>
+   </nav>
+
+   
+
+   <!-- background image -->
+   <section id="feature" class="content-section bg-[url('/Images/flower_homepage.jpg')] bg-cover bg-center bg-no-repeat h-screen w-full ">
+      <div class="flex flex-col justify-center items-center h-screen">
+         <div class="text-img w-2xl text-zinc-800">
+            <h1 class="mx-auto w-[50%] text-5xl text-center font-light leading-normal"
+               style="font-family: Lora, serif;">Refresh
+               your space with lush greenery and
+               exquisite flower bouquets
+            </h1>
+            <p class="text-lg text-center font-normal my-8 mx-auto w-[35%] leading-normal">Create the perfect indoor
+               jungle with
+               our bold houseplants,blooming
+               plants, hanging plants, and more!</p>
+         </div>
+         <div
+            class="button_bg h-14 w-44 bg-zinc-800 rounded-full text-center items-center justify-center flex text-white">
+            <h3>Buy Now</h3>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- feature flower -->
+   <section class="bg_feature flex justify-center items-center flex-col">
+      <div class="text-3xl w-1/3 text-center mt-10 text-zinc-800">
+         <h2>Plants and flowers are our specialty. We make it reasonable.</h2>
+      </div>
+
+      <div class="feature_flower flex justify-center items-center my-10 text-center">
+         <!-- first flower -->
+         <div class="first_flower flex justify-center items-center flex-col w-[270px] mx-8">
+            <img src="/Images/first-flower.png" alt="">
+            <h3 class="my-2 font-semibold text-lg text-zinc-800">First feature</h3>
+            <p class="text-gray-600">Short text describing one of your product or service features.</p>
+         </div>
+         <!-- second flower -->
+         <div class="second_flower flex justify-center items-center flex-col w-[270px] mx-8">
+            <img src="/Images/second-feature.png" alt="">
+            <h3 class="my-2 font-semibold text-lg text-zinc-800">Second feature</h3>
+            <p class="text-gray-600">Short text describing one of your product or service features.</p>
+         </div>
+         <!-- third flower -->
+         <div class="third_flower flex justify-center items-center flex-col w-[270px] mx-8">
+            <img src="/Images/third-feature.png" alt="">
+            <h3 class="my-2 font-semibold text-lg text-zinc-800">Third feature</h3>
+            <p class="text-gray-600">Short text describing one of your product or service features.</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- handcraft bouquets -->
+   <section id="how-it-works" class="content-section bg-[url('/Images/bluesky.png')] bg-cover bg-no-repeat bg-center h-[1100px] w-full mt-[80px]">
+      <div class="text_bouquets flex justify-center items-center flex-col text-center ">
+         <h2 class="mx-auto w-1/2 text-5xl font-light leading-normal mt-24 text-zinc-800"
+            style="font-family: Lora, serif;">
+            From handcrafted bouquets to lush floral arrangements</h2>
+         <p class="text-gray-600 w-2/5 my-6 ">A paragraph or two with information on your product/service or description
+            of a problem your product/service
+            is designed to solve.</p>
+      </div>
+
+      <div class="flower_handcraft mt-12 px-52">
+         <div class="img_handcraft">
+            <img class="relative left-64 z-30 -mb-40" src="/Images/handcrafted.png" alt="">
+            <img class="absolute z-40" src="/Images/rose.png" alt="">
+            <img class="absolute z-20 left-80 mt-8" src="/Images/6_flowers.png" alt="">
+         </div>
+
+         <div class="flex justify-end relative bottom-10 h-auto z-40">
+            <div
+               class="bg-[url('/Images/bg_reciept.png')] bg-cover bg-no-repeat bg-center w-[552px] h-[446px] items-center justify-center flex">
+               <div class="reciept_handcraft mx-[60px]">
+                  <div class="title_reciept">
+                     <h1 class="font-semibold text-3xl mb-2 text-zinc-800">How it works</h1>
+                     <h3 class="text-gray-600 text-xl">Subtitle</h3>
+                  </div>
+                  <div class="decscription list-none">
+                     <p class="text-gray-600 my-8">Provide your customers a story they would enjoy keeping in mind the
+                        objectives of your website.
+                     </p>
+                     <div class="list leading-[3rem]">
+                        <li>❉ FIRST step</li>
+                        <li>❉ SECOND step</li>
+                        <li>❉ THIRD step</li>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <!-- our bestsellers -->
+   <section id="bestsellers" class="content-section bg-bestseller mt-12">
+      <div class="title">
+         <h1 class="mx-auto w-[50%] text-5xl text-center font-light mb-12 text-zinc-800"
+            style="font-family: Lora, serif;">
+            Our Bestsellers
+         </h1>
+      </div>
+      <div class="flex justify-center space-x-8">
+         <div class="tootsie">
+            <img class="w-[290px]" src="/Images/Tootsie.png" alt="">
+            <p class="mt-2 font-semibold text-xl text-zinc-800">Tootsie</p>
+            <p class="text-gray-600 text-lg">$139</p>
+         </div>
+         <div class="emily">
+            <img class="w-[290px]" src="/Images/Emily.png" alt="">
+            <p class="mt-2 font-semibold text-xl text-zinc-800">Emily</p>
+            <p class="text-gray-600 text-lg">$82</p>
+         </div>
+         <div class="sun_sea">
+            <img class="w-[290px]" src="/Images/Sun & Sea.png" alt="">
+            <p class="mt-2 font-semibold text-xl text-zinc-800">Sun & Sea</p>
+            <p class="text-gray-600 text-lg">$144</p>
+         </div>
+         <div class="coral_sunset">
+            <img class="w-[290px]" src="/Images/Coral Sunset.png" alt="">
+            <p class="mt-2 font-semibold text-xl text-zinc-800">Coral Sunset</p>
+            <p class="text-gray-600 text-lg">$67</p>
+         </div>
+      </div>
+      <div class="my-12 flex justify-center">
+         <div
+            class=" button_bg h-14 w-44 bg-zinc-800 rounded-full text-center items-center justify-center flex text-white">
+            <h3 class="">Buy Now</h3>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- delivery discount -->
+   <section class="bg-[url(/Images/bg-flower3.png)] bg-no-repeat bg-cover bg-center w-full h-[615px]">
+      <div class="flex justify-center items-center flex-col w-full h-[610px] text-zinc-800">
+         <h1 class="mt-80 w-[603px] text-5xl text-center font-light leading-normal" style="font-family: Lora, serif;">
+            Order now and get a 15% delivery discount</h1>
+         <div
+            class="mt-6 button h-14 w-44 bg-zinc-800 rounded-full text-center items-center justify-center flex text-white">
+            <p>Buy Now</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- review -->
+   <section id="reviews" class="content-section bg-aboutus my-12 flex justify-center items-center flex-col">
+      <div class="title_review text-4xl mb-12 text-zinc-800">
+         <h1>What our customers say about us</h1>
+      </div>
+      <!-- detail -->
+      <div class="detail_review flex justify-center items-center space-x-8 w-full px-32">
+
+         <div class="arrow_left">
+            <div><i class="fa-solid fa-arrow-left fa-2x"></i></div>
+         </div>
+         <div class="lusy pl-12">
+            <img src="/Images/LusyS.png" alt="image">
+            <h3 class="font-semibold text-xl mt-2 text-zinc-800">Lucy S.</h3>
+            <div class="star my-2 text-zinc-800"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p class="w-[300px] text-gray-600 text-md">The flowers I sent looked exactly like the website photo! I am
+               very happy with the service and will use them again!</p>
+         </div>
+         <div class="kathleen">
+            <img src="/Images/KathleenM.png" alt="image">
+            <h3 class="font-semibold text-xl mt-2 text-zinc-800">Kathleen M.</h3>
+            <div class="star my-2 text-zinc-800"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p class="w-[300px] text-gray-600 text-md">Always easy, always beautiful. The flowers arrived on time and
+               looked even better in real life!</p>
+         </div>
+         <div class="christine pr-12">
+            <img src="/Images/ChristineW.png" alt="image">
+            <h3 class="font-semibold text-xl mt-2 text-zinc-800">Christine W.</h3>
+            <div class="star my-2 text-zinc-800"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p class="w-[300px] text-gray-600 text-md">Excellent flower bouquet and beautiful arrangements! My
+               expectations were exceeded. Would highly recommend.</p>
+         </div>
+         <div class="arrow_right">
+            <div><i class="fa-solid fa-arrow-right fa-2x"></i></div>
+         </div>
+      </div>
+   </section>
+
+   <!-- who we are & what we do -->
+   <section id="about-us" class="content-section bg-[url(/Images/bg-aboutus.png)] bg-cover bg-center bg-no-repeat w-full h-[1400px]">
+      <!-- who we are -->
+      <div class="who_we_are flex justify-center items-center py-24">
+         <div class="left-20 relative">
+            <img src="/Images/pink_flower.png" alt="image">
+         </div>
+         <div
+            class="ph_who_we_are bg-[url(/Images/bg_reciept.png)] bg-cover bg-center bg-no-repeat w-[690px] h-[490px] flex justify-center items-center relative right-20">
+            <div class="text_who_we_are flex justify-center flex-col h-[490px]">
+               <h3 class="text-3xl text-zinc-800">Who we are</h3>
+               <p class="text-gray-600 w-[488px] my-12">A paragraph or two with information on your product/service or
+                  describes a problem your product/service
+                  is designed to solve. Provide your customers a story they would enjoy keeping in mind the objectives
+                  of
+                  your website. Pay special attention to the tone of voice. Try to win the customers' trust by being
+                  positive.</p>
+               <p class="text-zinc-800">See our promise</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- what we do -->
+      <div class="what_we_do flex justify-center items-center">
+         <div
+            class="ph_what_we_do bg-[url(/Images/bg_reciept.png)] bg-cover bg-center bg-no-repeat w-[690px] h-[490px] z-20 flex justify-center items-center relative left-20">
+            <div class="text_what_we_do flex justify-center flex-col h-[490px]">
+               <h3 class="text-3xl text-zinc-800">What we do</h3>
+               <p class="text-gray-600 w-[488px] my-12">A paragraph or two with information on your product/service or
+                  describes a problem your product/service is designed to solve. Provide your customers a story they
+                  would enjoy keeping in mind the objectives of your website. Pay special attention to the tone of
+                  voice. Try to win the customers' trust by being positive.</p>
+               <p class="text-zinc-800">See our promise</p>
+            </div>
+         </div>
+         <div class="right-20 relative ">
+            <img src="/Images/blue_flower.png" alt="image">
+         </div>
+      </div>
+   </section>
+
+   <!-- contact us -->
+   <section class="bg_contact bg-[url(/Images/bg-aboutus2.png)] bg-cover bg-center bg-no-repeat w-full h-[510px]">
+      <div class="flex justify-center items-center flex-col h-[510px] pt-24">
+         <h1 class="mx-auto w-[460px] leading-normal text-5xl text-center font-light text-zinc-800 pb-8"
+            style="font-family: Lora, serif;">Contact us if you have any questions</h1>
+         <div
+            class="button_contact button_bg h-14 w-44 bg-zinc-800 rounded-full text-center items-center justify-center flex text-white">
+            Contact</div>
+      </div>
+   </section>
+
+   <!-- We're with you -->
+   <section class="flex justify-center items-center">
+      <div class="download bg-[url(/Images/beige.png)] bg-cover bg-center bg-no-repeat w-1/2 h-[590px]">
+         <div class="flex justify-center flex-col w-1/2 h-[590px] mx-auto w-[450px]">
+            <h1 class="w-[460px] leading-normal text-5xl font-light text-zinc-800" style="font-family: Lora, serif;">
+               We're with you</h1>
+            <p class="text-gray-600 w-[450px] py-8">Provide your customers a story they would enjoy keeping in mind the
+               objectives of your website. Pay special
+               attention to tone of voice. Try to win the customers’ trust by being positive.</p>
+            <p class="text-zinc-800 text-xl pb-8">Now available on iOS and Android</p>
+            <div
+               class="button_download button_contact button_bg h-14 w-44 bg-zinc-800 rounded-full text-center items-center justify-center flex text-white">
+               <button>Download</button>
+            </div>
+         </div>
+      </div>
+      <div class="img_phone bg-[url(/Images/phone.png)] bg-cover bg-center bg-no-repeat w-1/2 h-[590px]"></div>
+   </section>
+
+   <!-- instagram -->
+   <section class="mt-12 flex justify-center items-center flex-col px-32 ">
+      <div class="ig_title">
+         <h1 class="mb-12 leading-normal text-5xl font-light text-zinc-800" style="font-family: Lora, serif;">Follow us
+            on
+            Instagram</h1>
+      </div>
+      <!-- above part -->
+      <div class="flex justify-center items-center flex-col gap-6 ">
+
+         <div class="above flex justify-between h-[470px] gap-6 w-full">
+            <div class="grid grid-row-2 w-[45%]">
+               <img class="h-[292px] w-[233px]" src="/Images/mix_roses.png" alt="mix_roses">
+               <div class="flex flex-col justify-end">
+                  <h3 class="text-gray-600 text-3xl text-end w-[80%]">@flowerlab17</h3>
+               </div>
+
+
+            </div>
+            <div class="flex gap-6">
+               <img class="w-[236px] h-[184px]" src="/Images/bouque_1.png" alt="bouque_1">
+               <img class="w-[377px] h-[472px]" src="/Images/bouque_2.png" alt="bouque_2">
+            </div>
+         </div>
+
+         <!-- below part -->
+         <div class="below flex justify-center items-center">
+            <div class="flex justify-center items-start space-x-[305px]">
+               <div class="flex items-start gap-6">
+                  <img src="/Images/fresh_flower.png" alt="fresh_flower">
+                  <img src="/Images/bouque_rose.png" alt="bouque_rose">
+               </div>
+               <div class="flex items-start gap-6">
+                  <img src="/Images/flower_shop.png" alt="flower_shop">
+                  <img src="/Images/white_rose.png" alt="white_rose">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- footer -->
+   <footer class="bg-zinc-800 h-[245px] w-full text-white flex justify-center flex-col text-center mt-12">
+      <h2 class="text-4xl">logo</h2>
+      <div class="privacy flex justify-around items-end mt-24">
+         <p>Privacy policy</p>
+         <p>© 2021 Copyright</p>
+         <p>Terms and Conditions</p>
+      </div>
+   </footer>
+
+</body>
+
+</html>
